@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "angular-course",
+      "public": "dist/angular-course",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

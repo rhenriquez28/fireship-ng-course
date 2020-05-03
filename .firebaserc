@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "test-9da4b": {
+      "hosting": {
+        "angular-course": [
+          "test-9da4b"
+        ]
+      }
+    }
+  }
+}

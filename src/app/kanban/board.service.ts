@@ -3,7 +3,7 @@ import { AngularFireAuth } from "@angular/fire/auth";
 import { AngularFirestore } from "@angular/fire/firestore";
 import * as firebase from "firebase/app";
 import { switchMap, map } from "rxjs/operators";
-import { Board, Task } from "./kanban.model";
+import { Board, Task } from "./board.model";
 
 @Injectable({
 	providedIn: "root"

@@ -1,7 +1,7 @@
 import { Component, OnInit, OnDestroy } from "@angular/core";
 import { CdkDragDrop, moveItemInArray } from "@angular/cdk/drag-drop";
 import { Subscription } from "rxjs";
-import { Board } from "../kanban.model";
+import { Board } from "../board.model";
 import { BoardService } from "../board.service";
 
 @Component({

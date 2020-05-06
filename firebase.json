@@ -1,19 +1,19 @@
 {
-  "hosting": [
-    {
-      "target": "angular-course",
-      "public": "dist/angular-course",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
+  "hosting": {
+    "public": "dist/angular-course/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "run": {
+          "serviceId": "angular-course",
+          "region": "us-central1" 
         }
-      ]
-    }
-  ]
+      }
+    ]
+  }
 }
